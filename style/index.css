@@ -1,0 +1,139 @@
+/* Barre de navigation*/
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #f088a7;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    text-decoration: none;
+}
+.inner_header{
+    width: 1100px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo_container{
+    height: 100px;
+    display: table;
+    float: left;
+    height: 80px;
+}
+.logo_container h1{
+    color: rgb(10, 10, 10);
+    height: 80%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 80%; 
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: rgb(8, 8, 8);
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+}
+/*Fin de la barre de navigation */
+
+
+/*Alignement du texte*/
+
+.bloc_ecriture{
+    margin-right: 30%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/*Fin de l'alignement du texte*/
+
+
+/*Marge espacement*/
+
+.marge{
+    margin: 20px 0px 20px 80px;
+}
+.marge_2{
+    margin: 0px 0px 30px 30px;
+    color: #ffffff;
+}
+.marge_3{
+    margin: 0px 0px 30px 30px;
+    color: #ffffff;
+}
+/*Fin de marge espacement*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #f088a7;
+    color: black;
+}
+
+/*Ne pas oublier les 2 points sur le chemin de l'image*/
+body{
+    background-image: url("../image/font.png");
+}
+
+.image{
+    height: 420px; 
+    width: 400px;
+    /*Centré l'image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*Arrondie les angles*/
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+}
+.img2{
+    height: 220px; 
+    width: 170px;
+    /*Arrondie les angles*/
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+}
+
+/*Aligne les boites*/
+.nextto{
+    display: inline-block;
+    width: 30%;
+}
+
+.boxe {
+    width: 300px;
+    /*border: 3px solid rgb(0, 0, 0);*/
+    padding: 20px;
+    margin: 20px;
+}
