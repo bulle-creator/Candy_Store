@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <title>Candy Store</title>
+        <meta charset="utf-8"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link  rel="stylesheet" href="style/index.css">
+
+        <div class="header">
+            <div class="inner_header">
+                <div class="logo_container">
+                    <h1><span>Candy Store</span></h1>
+                </div>
+                    <ul class="navigation">
+                        <a href="glace.html"><li>Glace</li></a>
+                        <a href="gateau.html"><li>Gateau</li></a>
+                        <a href="boisson.html"><li>Boisson</li></a>
+                        <a href="reseau.html"><li>Contacte</li></a>
+                    </ul>
+                </div>
+            </div><br>
+    </head>
+
+    <body>
+
+        <body class="formulaire">
+
+            <div class="contact-wrapper">
+                <form class="form-horizontal" method="post" action="contact.php">
+                    <h1 class="section-header">Posez-nous vos questions !</h1>
+        
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" placeholder="nom" name="name" required>
+
+                    <label for="name">Prénom</label>
+                    <input type="text" id="prenom" placeholder="prenom" name="prenom" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="email@mail.com" name="email" required>
+        
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" placeholder="06 00 00 00 00" name="phone">
+        
+                    <label for="message">Message</label>
+                    <textarea rows="10" id="message" name="message" required></textarea>
+        
+                    <button class="send-button" id="submit" type="submit"><strong>Envoyer</strong></button>
+                    <div class="advert-wrapper">
+        
+                    <p>Souhaitez-vous recevoir nos news ?</p>
+                    <input type="radio" id="yes" name="news-question" value="yes" checked>
+        
+                    <label for="yes">Oui</label>
+                    input type="radio" id="no" name="news-question" value="no">
+                    <label for="no">Non</label>
+        
+                    </div>
+                </form>
+            </div>
+
+        <footer>
+            <strong> <p>Candy Store</p> </strong>
+        </footer>
+
+    </body>
+
+</html>
